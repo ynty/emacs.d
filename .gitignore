@@ -48,7 +48,75 @@ flycheck_*.el
 /.org-id-locations
 /org-clock-save.el
 
+# AUCTeX - Auto-Parsing Information Files
+# /auto/
+
+# RefTeX - Parsing Information Files
+# *.rel
+
 # Eshell
 /eshell
+
+# Emacs URL Cache
+/url/cache
+
+# Emacs Network Security Manager
+/network-security.data
+
+# Cask - Project Management for Emacs Package Development
+/.cask/
+dist/
+
+# Projectile
+.projectile
+/projectile-bookmarks.eld
+/projectile.cache
+
+# Directory-Local Variables
+# .dir-locals.el
+
+# Emacs Server
+/server/
+
+# Linux
+.fuse_hidden*
+.nfs*
+
+# Linux Trash Folder
+.Trash-*
+
+# KDE Directory Preferences
+.directory
+
+# macOS
+._*
+.DS_Store
+.Spotlight-V100
+# .AppleDouble
+# .LSOverride
+# Icon  # (Icon must end with two \r)
+# .DocumentRevisions-V100
+# .fseventsd
+# .TemporaryItems
+# .Trashes
+# .VolumeIcon.icns
+# .com.apple.timemachine.donotpresent
+# .AppleDB
+# .AppleDesktop
+# Network Trash Folder
+# Temporary Items
+# .apdisk
+# *.icloud
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Windows Dumpfile
+*.stackdump
 
 # .gitignore ends here

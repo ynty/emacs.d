@@ -1,0 +1,54 @@
+# .gitignore --- Specify intentionally untracked files to ignore -*- mode: gitignore; -*-
+# 
+# Commentary:
+# 
+# This gitignore file references or adapts work from:
+#   [1] Steve Purcell's Emacs configuration:
+#       https://github.com/purcell/emacs.d/blob/master/.gitignore
+#   [2] gitignore.io
+#       https://www.toptal.com/developers/gitignore/api/emacs
+#       https://www.toptal.com/developers/gitignore/api/macos,linux,windows
+# 
+
+# Backup, File Locks and Auto-Saving
+*~
+.\#*
+\#*
+# or: \#*\#
+/auto-save-list
+
+# Locks
+# .*.lock
+
+# Desktop Save Mode
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# TRAMP: Transparent Remote (file) Access, Multiple Protocol
+/tramp
+
+# Emacs Lisp - Compiled Bytecode
+*.elc
+
+# Emacs Lisp - Native Compilation
+/eln-cache
+
+# ELPA Packages
+/elpa
+/elpa-*
+
+# Flymake Mode
+*_flymake.*
+
+# Flycheck
+flycheck_*.el
+
+# Org Mode
+*_archive
+/.org-id-locations
+/org-clock-save.el
+
+# Eshell
+/eshell
+
+# .gitignore ends here

@@ -5,7 +5,7 @@
 # This gitignore file references or adapts work from:
 #   [1] Steve Purcell's Emacs configuration:
 #       https://github.com/purcell/emacs.d/blob/master/.gitignore
-#   [2] gitignore.io
+#   [2] gitignore.io:
 #       https://www.toptal.com/developers/gitignore/api/emacs
 #       https://www.toptal.com/developers/gitignore/api/macos,linux,windows
 # 
@@ -36,6 +36,12 @@
 # ELPA Packages
 /elpa
 /elpa-*
+
+# straight.el: next-generation, purely functional package manager for the Emacs hacker.
+straight/
+# straight/repos
+# straight/build
+# straight/build-cache.el
 
 # Flymake Mode
 *_flymake.*

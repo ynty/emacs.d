@@ -6,6 +6,9 @@
 
 ;;; Code:
 
+;; Save variables configured via the Easy Customization Interface into a separate file.
+(setq custom-file (locate-user-emacs-file "custom.el"))
+
 ;; Setup straight.el
 (defvar bootstrap-version)
 (let ((bootstrap-file
@@ -23,17 +26,27 @@
       (eval-print-last-sexp)))
   (load bootstrap-file nil 'nomessage))
 
+;; Company Mode
+(straight-use-package 'company)
+(global-company-mode)
+
 ;; Theme
-(straight-use-package 'catppuccin-theme)
+(straight-use-package 'solarized-theme)
 ; (load-theme 'catppuccin :no-confirm)
 
 (electric-pair-mode t)
+
+;; Markdown
+(straight-use-package 'markdown-mode)
 
 ;; Set window size
 (add-to-list 'default-frame-alist '(width . 180))
 (add-to-list 'default-frame-alist '(height . 55))
 
-;; Company Mode
-(straight-use-package 'company)
+;; Load variables configured via the Easy Customization Interface.
+(when (file-exists-p custom-file)
+  (load custom-file))
+
+(provide 'init)
 
 ;;; init.el ends here

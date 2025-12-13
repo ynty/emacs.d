@@ -1,5 +1,9 @@
-;;; init-straight.el --- Setup straight.el
+;;; init-straight.el --- Setup straight.el -*- lexical-binding: t -*-
+;;; Commentary:
 
+;; straight.el is next-generation, purely functional package manager for the
+;; Emacs hacker which is a replacement for package.el:
+;;   https://github.com/radian-software/straight.el
 
 ;;; Code:
 

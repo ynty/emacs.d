@@ -17,31 +17,44 @@
 # or: \#*\#
 /auto-save-list
 
-# Locks
-# .*.lock
+# Custom File
+/custom.el
 
-# Desktop Save Mode
-/.emacs.desktop
-/.emacs.desktop.lock
-
-# TRAMP: Transparent Remote (file) Access, Multiple Protocol
-/tramp
-
-# Emacs Lisp - Compiled Bytecode
+# Emacs Lisp :: Compiled Bytecode
 *.elc
 
-# Emacs Lisp - Native Compilation
+# Emacs Lisp :: Native Compilation
 /eln-cache
 
 # ELPA Packages
 /elpa
 /elpa-*
 
-# straight.el: next-generation, purely functional package manager for the Emacs hacker.
+# straight.el - next-generation, purely functional package manager for the Emacs hacker.
 straight/
 # straight/repos
 # straight/build
 # straight/build-cache.el
+
+# site-lisp/package/
+
+# Recentf Mode
+/recentf
+
+# Desktop Save Mode
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# Session Restore
+# https://github.com/purcell/emacs.d/blob/7a793cdae7e2de8a08febf3cd09d2012c8b49baa/lisp/init-sessions.el#L38
+/.session
+/session.*
+
+# Frame Restore
+/frame-restore-parameters
+
+# TRAMP - Transparent Remote (file) Access, Multiple Protocol
+/tramp
 
 # Flymake Mode
 *_flymake.*
@@ -54,17 +67,18 @@ flycheck_*.el
 /.org-id-locations
 /org-clock-save.el
 
-# AUCTeX - Auto-Parsing Information Files
+# (La)TeX :: AUCTeX Auto-Parsing Information Files
 # /auto/
 
-# RefTeX - Parsing Information Files
+# (La)TeX :: RefTeX Parsing Information Files
 # *.rel
 
 # Eshell
 /eshell
 
-# Emacs URL Cache
+# Emacs URL
 /url/cache
+cookies
 
 # Emacs Network Security Manager
 /network-security.data
@@ -81,7 +95,7 @@ dist/
 # Directory-Local Variables
 # .dir-locals.el
 
-# Emacs Server
+# Emacs as a Server
 /server/
 
 # Linux
@@ -125,4 +139,81 @@ $RECYCLE.BIN/
 # Windows Dumpfile
 *.stackdump
 
+# History/Cache/Lock Files, but whose?
+/history
+/.historian
+.cache/
+.*.lock
+
+# I don't know why, but Steve Purcell think it is needed.
+/var
+/TODO
+/.achievements
+/transient
+/.lsp-session-v1
+/projects
+
+# SQL
+# https://github.com/purcell/emacs.d/blob/7a793cdae7e2de8a08febf3cd09d2012c8b49baa/lisp/init-sql.el#L31C1-L32C56
+/.sqli_history
+
+# Tree-sitter
+# https://github.com/purcell/emacs.d/blob/7a793cdae7e2de8a08febf3cd09d2012c8b49baa/lisp/init-treesitter.el#L5C1-L16C1
+/tree-sitter
+
+# Emacs Newsticker
+/newsticker
+
+# Common Lisp (SLIME, Swank)
+# /swank
+
+# Python :: Anaconda
+# /anaconda-mode/
+
+# Ruby :: Rake
+# /rake.cache
+
+# multiple-cursors.el
+# https://github.com/magnars/multiple-cursors.el?tab=readme-ov-file#unknown-commands
+/.mc-lists.el
+
+# Emacs Uptime
+/.uptimes.el
+
+# Emacs Bookmarks
+# https://github.com/purcell/emacs.d/blob/7a793cdae7e2de8a08febf3cd09d2012c8b49baa/lisp/init-editing-utils.el#L17
+/.bookmarks.el
+
+# Helm :: helm-adaptive-mode
+/helm-adaptive-history
+
+# Smex
+/.smex-items
+/smex-items
+
+# Ido (Interactive Do)
+/ido.last
+
+# Java Applications which Purcell Used
+/ditaa*.jar
+/plantuml.jar
+
+# Thumbnails
+/image-dired/
+/thumbs/
+
+# GNU/Emms - Emacs Multimedia System
+/emms/
+
+# SX - Stack Exchange for Emacs
+# /.sx/
+
+# Magit :: Magithub
+# /magithub
+
+# Magit :: Forge
+/forge-*.sqlite
+# /forge-database.sqlite
+
 # .gitignore ends here
+

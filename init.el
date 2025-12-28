@@ -17,7 +17,7 @@
 
 ;; Company Mode
 (straight-use-package 'company)
-(global-company-mode)
+(global-company-mode t)
 
 (electric-pair-mode t)
 
@@ -27,7 +27,7 @@
 
 ;; Org Mode
 (straight-use-package '(org :type built-in))
-(setq org-agenda-files (list "~/org"))
+(setq org-agenda-files (list "~/org" "~/.emacs.d/docs/roadmap.org"))
 
 ;; Markdown
 (straight-use-package 'markdown-mode)

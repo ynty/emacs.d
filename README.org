@@ -1,0 +1,7 @@
+* My Emacs Config
+
+** Principles
+
+1. LSP First
+2. Not Using Evil
+

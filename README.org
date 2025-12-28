@@ -9,8 +9,8 @@
 ** How to Use
 
 To use this config, you need to clone the repository to your init file directory 
-(e.g. ~/.emacs.d/, etc).
+(e.g. =~/.emacs.d/=, etc).
 
-Then you need to put all of your org-agenda files into ../org/ of your 
+Then you need to put all of your org-agenda files into =../org/= of your 
 init file directory.
 

@@ -11,21 +11,19 @@
 
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 
-;; Setup straight.el
 (require 'init-straight)
+
+(require 'init-themes)
 
 ;; Company Mode
 (straight-use-package 'company)
 (global-company-mode)
 
-;; Theme
-(straight-use-package 'solarized-theme)
-; (load-theme 'catppuccin :no-confirm)
-
 (electric-pair-mode t)
 
 ;; Org Mode
 (straight-use-package '(org :type built-in))
+(setq org-agenda-files (list "~/org"))
 
 ;; Markdown
 (straight-use-package 'markdown-mode)
@@ -41,3 +39,4 @@
 (provide 'init)
 
 ;;; init.el ends here
+

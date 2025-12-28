@@ -1,22 +1,26 @@
-* To-Do List
+* Emacs Config
 
-** TODO Org Mode
+** TODO Org Mode Support
 
-** TODO LaTeX
+** TODO LaTeX Support
 
-** TODO Markdown
+** TODO Markdown Support
 
-** TODO Git
+** TODO Git Support
 
-** TODO LSP
+** TODO Support for Programming Language(s)
 
-** TODO C / C++
+*** TODO Language Server Protocol Support
 
-** TODO Fortran
+*** TODO Debugger Support
 
-** TODO Python / R / Julia
+*** TODO C / C++ Support
 
-** TODO Rust
+*** TODO Fortran Support
 
-** TODO Scala / OCaml
+*** TODO Python / R / Julia Support
+
+*** TODO Rust Support
+
+*** TODO Scala / OCaml Support
 

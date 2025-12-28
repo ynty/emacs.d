@@ -8,7 +8,7 @@
 
 ** TODO Git Support
 
-** TODO Support for Programming Language(s)
+** Support for Programming Language(s)
 
 *** TODO Language Server Protocol Support
 

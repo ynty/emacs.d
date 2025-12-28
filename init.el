@@ -26,8 +26,7 @@
 (global-display-line-numbers-mode t)
 
 ;; Org Mode
-(straight-use-package '(org :type built-in))
-(setq org-agenda-files (list "~/org" "~/.emacs.d/docs/roadmap.org"))
+(require 'init-org)
 
 ;; Markdown
 (straight-use-package 'markdown-mode)

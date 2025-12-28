@@ -4,4 +4,13 @@
 
 1. LSP First
 2. Not Using Evil
+3. Use straight.el to Manage Package
+
+** How to Use
+
+To use this config, you need to clone the repository to your init file directory 
+(e.g. ~/.emacs.d/, etc).
+
+Then you need to put all of your org-agenda files into ../org/ of your 
+init file directory.
 

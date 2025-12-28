@@ -1,0 +1,22 @@
+* To-Do List
+
+** TODO Org Mode
+
+** TODO LaTeX
+
+** TODO Markdown
+
+** TODO Git
+
+** TODO LSP
+
+** TODO C / C++
+
+** TODO Fortran
+
+** TODO Python / R / Julia
+
+** TODO Rust
+
+** TODO Scala / OCaml
+

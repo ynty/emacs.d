@@ -21,6 +21,10 @@
 
 (electric-pair-mode t)
 
+;; Line Number and Column Number
+(column-number-mode t)
+(global-display-line-numbers-mode t)
+
 ;; Org Mode
 (straight-use-package '(org :type built-in))
 (setq org-agenda-files (list "~/org"))

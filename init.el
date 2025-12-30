@@ -35,7 +35,7 @@
 (straight-use-package 'markdown-mode)
 
 ;; Set window size
-(add-to-list 'default-frame-alist '(width . 190))
+(add-to-list 'default-frame-alist '(width . 125))
 (add-to-list 'default-frame-alist '(height . 55))
 
 ;; Load variables configured via the Easy Customization Interface.

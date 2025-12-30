@@ -5,7 +5,7 @@
 
 ;;; Code:
 
-(straight-use-package '(eglot :type built-in))
+(straight-use-package 'eglot)
 
 (provide 'init-lsp)
 

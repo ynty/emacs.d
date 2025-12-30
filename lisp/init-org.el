@@ -2,7 +2,7 @@
 ;;; Commentary:
 ;;; Code:
 
-(straight-use-package '(org :type built-in))
+(straight-use-package 'org)
 
 (setq org-agenda-files (list "~/org" "~/.emacs.d/docs/roadmap.org"))
 

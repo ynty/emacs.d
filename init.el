@@ -15,6 +15,9 @@
 
 (require 'init-themes)
 
+;; LSP
+(require 'init-lsp)
+
 ;; Company Mode
 (straight-use-package 'company)
 (global-company-mode t)
@@ -32,7 +35,7 @@
 (straight-use-package 'markdown-mode)
 
 ;; Set window size
-(add-to-list 'default-frame-alist '(width . 180))
+(add-to-list 'default-frame-alist '(width . 190))
 (add-to-list 'default-frame-alist '(height . 55))
 
 ;; Load variables configured via the Easy Customization Interface.

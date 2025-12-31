@@ -34,6 +34,8 @@
 ;; Markdown
 (straight-use-package 'markdown-mode)
 
+(require 'init-tex)
+
 ;; Set window size
 (add-to-list 'default-frame-alist '(width . 125))
 (add-to-list 'default-frame-alist '(height . 55))

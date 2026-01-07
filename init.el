@@ -38,6 +38,8 @@
 
 ;; (require 'init-typst)
 
+(require 'init-scheme)
+
 ;; Set window size
 (add-to-list 'default-frame-alist '(width . 125))
 (add-to-list 'default-frame-alist '(height . 55))

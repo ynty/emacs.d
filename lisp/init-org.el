@@ -4,7 +4,7 @@
 
 (straight-use-package 'org)
 
-(setq org-agenda-files (list "~/org" "~/.emacs.d/docs/roadmap.org"))
+(setq org-agenda-files (list "~/org-mode" "~/.emacs.d/docs/roadmap.org"))
 
 (provide 'init-org)
 
